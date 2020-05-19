@@ -1,29 +1,31 @@
-.headerprincipal h1 {
-    background: url(/bvb/fondohd.jpg);
-    width: 1950px;
-    height: 1000px;
-    margin-top: -80px;
-    margin-left: -50px;
-    margin-right: -30px;
+/* header principal */
+
+.site_header_inicio {
+    background: url(/bvb/background\ de\ pagina.jpg);
+    height: 100vh;
+    min-height: 600px;
     background-size: cover;
+    background-position: center center;
 }
 
-.fondoseccion {
-    background-color: rgb(255, 238, 0);
-}
+
+/* enlaces */
 
 .navegacion a {
     font-size: 25px;
-    color: black;
+    color: goldenrod;
     text-decoration: none;
     margin-right: 18px;
     justify-content: right;
 }
 
+
+/* barra dentro del header */
+
 .barra {
     display: flex;
-    padding-top: 30px;
-    padding-left: 1600px;
+    justify-content: space-evenly;
+    padding-top: -0px;
 }
 
 .tituloh1 {
@@ -34,4 +36,8 @@
 
 .margen {
     margin: -20px;
+}
+
+.fondoseccion {
+    background-color: rgb(255, 238, 0);
 }
